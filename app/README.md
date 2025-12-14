@@ -128,8 +128,7 @@ app/
 └── main_app.ipynb   # Main application notebook for model inference
 ```
 
-The `main_app.ipynb` notebook orchestrates model loading, preprocessing, inference, and result visualization.
-
+The `main_app.ipynb` notebook handles model loading, data preparation, prediction, and result visualization.
 ---
 
 ## How It Works
@@ -145,19 +144,19 @@ The `main_app.ipynb` notebook orchestrates model loading, preprocessing, inferen
 
 ## Usage Instructions
 
-1. Pastikan seluruh dependensi telah terpasang dengan benar
-2. Pastikan model hasil training tersedia di folder `trained_models/`
-3. Buka notebook berikut dan jalankan **Run All Cells**:
+1. Make sure all required dependencies are installed correctly
+2. Ensure that the trained models are available in the `trained_models/`directory
+3. Open the following notebook and run **Run All Cells**:
 
 ```text
 app/main_app.ipynb
 ```
 
-Setelah seluruh cell dijalankan, antarmuka Gradio akan otomatis muncul.
+After all cells have finished running, the Gradio interface will appear automatically.
 
-4. Buka URL Gradio yang ditampilkan pada output notebook
-5. Gunakan menu navigasi untuk berpindah antara halaman **Home** dan **Analysis Dashboard**
-6. Unggah file CSV atau gunakan _sample data_ untuk memulai analisis
+4. Open the Gradio URL shown in the notebook output
+5. Use the navigation menu to switch between the **Home** and **Analysis Dashboard**
+6. Upload a CSV file or use the provided sample data to start the analysis
 
 ---
 
@@ -191,7 +190,7 @@ The application requires the following dependencies:
 - **Gradio**
 - Matplotlib
 
-Install all dependencies using:
+Install all dependencies in your Terminal using:
 
 ```bash
 pip install -r requirements.txt

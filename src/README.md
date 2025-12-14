@@ -130,7 +130,7 @@ Main libraries used:
 - NumPy
 - Matplotlib
 
-Install dependencies:
+Install dependencies in your Terminal Using:
 
 ```bash
 pip install -r requirements.txt
