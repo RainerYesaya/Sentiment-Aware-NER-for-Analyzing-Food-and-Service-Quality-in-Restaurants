@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+evaluate
+accelerate
+seqeval
+pandas
+numpy
+scikit-learn
+emoji
+matplotlib
+seaborn
+gradio
+ipywidgets
