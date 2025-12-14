@@ -127,8 +127,8 @@ This table enables fine-grained inspection of how entities and sentiments are id
 app/
 └── main_app.ipynb   # Main application notebook for model inference
 ```
-
 The `main_app.ipynb` notebook handles model loading, data preparation, prediction, and result visualization.
+
 ---
 
 ## How It Works
